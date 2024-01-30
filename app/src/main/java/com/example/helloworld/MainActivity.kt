@@ -13,13 +13,13 @@ private lateinit var binding: ActivityMainBinding
 var texte = ""
 var nombres = []
 val nombre = View.OnClickListener { view ->
-    Log.i("DebugCalculatrice", (view as Button).text.tonombre())
-    texte += (view as Button).text.tonombre()
+    Log.i("DebugCalculatrice", (view as Button).text.toString())
+    texte += (view as Button).text.toString()
     binding.textView.text = texte
 }
 val nombre = View.OnClickListener { view ->
-    Log.i("DebugCalculatrice", (view as Button).text.tonombre())
-    texte += (view as Button).text.tonombre()
+    Log.i("DebugCalculatrice", (view as Button).text.toString())
+    texte += (view as Button).text.toString()
     binding.textView.text = texte
 }
 
